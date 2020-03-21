@@ -1,4 +1,11 @@
-
+const TodoList = () => {
+    return (
+        <ul>
+            <li>Learn React</li>
+            <li>Build Awesome App</li>
+        </ul>
+    );
+};
 
 const AppHeader = () => {
     return (
@@ -15,6 +22,7 @@ const App = () => {
         <div>
             <AppHeader/>
             <SearchPanel/>
+            <TodoList/>
         </div>
     );
 };
