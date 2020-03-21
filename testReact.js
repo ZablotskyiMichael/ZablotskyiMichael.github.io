@@ -1,10 +1,12 @@
 
 const TodoList = () => {
     return (
+        <div>
         <ul>
             <li>Learn React</li>
             <li>Build Awesome App</li>
         </ul>
+        </div>
     );
 };
 
